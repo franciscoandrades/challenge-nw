@@ -68,7 +68,9 @@ cmd = ./wrk -c50000 -d45s http://127.0.0.1:8000/predict -s scripts/post.lua
 En post.lua se debiése agregar:
 
 wrk.method = "POST"
+
 wrk.body = '{"FechaI": "2023-02-25T05:26:24.547Z","OriI": "string","DesI": "string","EmpI": "string","DIANOM": "string", "TIPOVUELO": "string"}'
+
 wrk.headers["Content-Type"] = "application/json"
 
 ### Resultado
