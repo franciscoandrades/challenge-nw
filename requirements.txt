@@ -1,0 +1,11 @@
+fastapi
+matplotlib
+numpy
+pandas
+pydantic
+scikit_learn
+scipy
+xgboost
+missingno
+seaborn
+joblib
