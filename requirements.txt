@@ -10,3 +10,4 @@ missingno
 seaborn
 joblib
 jupyterlab==2.2.6
+uvicorn
