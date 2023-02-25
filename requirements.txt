@@ -9,4 +9,4 @@ xgboost
 missingno
 seaborn
 joblib
-jupyterlab
+jupyterlab==2.2.6
